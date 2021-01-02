@@ -5,19 +5,16 @@ import PackageDescription
 let package = Package(
     name: "HaishinKit",
     platforms: [
-        .iOS(.v9),
-        .tvOS(.v10),
-        .macOS(.v10_11)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "HaishinKit", type: .dynamic, targets: ["HaishinKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/shogo4405/Logboard.git", from: "2.2.1")
+        .package(url: "https://github.com/rampenke/Logboard.git", from: "2.2.1")
     ],
     targets: [
-        .target(name: "SwiftPMSupport"),
-        .target(name: "HaishinKit", dependencies: ["Logboard", "SwiftPMSupport"],
+        .target(name: "HaishinKit", dependencies: ["Logboard"],
                 path: "Sources",
                 sources: [
                     "Codec",
