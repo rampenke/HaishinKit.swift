@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/ram/dev/LLRtmp.swift/LLRtmp.xcodeproj">
    </FileRef>
 </Workspace>

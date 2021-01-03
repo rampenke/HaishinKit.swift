@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-static NSString *const __nonnull HaishinKitIdentifier = @"com.haishinkit.HaishinKit";
+static NSString *const __nonnull LLRtmpIdentifier = @"com.haishinkit.LLRtmp";
 FOUNDATION_EXPORT double HaishinKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char HaishinKitVersionString[];
 

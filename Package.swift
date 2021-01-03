@@ -3,18 +3,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "HaishinKit",
+    name: "LLRtmp",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v13)
     ],
     products: [
-        .library(name: "HaishinKit", type: .dynamic, targets: ["HaishinKit"])
+        .library(name: "LLRtmp", type: .dynamic, targets: ["LLRtmp"])
     ],
     dependencies: [
         .package(url: "https://github.com/rampenke/Logboard.git", from: "2.2.1")
     ],
     targets: [
-        .target(name: "HaishinKit", dependencies: ["Logboard"],
+        .target(name: "SwiftPMSupport"),
+        .target(name: "LLRtmp", dependencies: ["Logboard" , "SwiftPMSupport"],
                 path: "Sources",
                 sources: [
                     "Codec",

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2945CBBC1B4BE66000104112"
                BuildableName = "HaishinKit.framework"
-               BlueprintName = "HaishinKit iOS"
-               ReferencedContainer = "container:HaishinKit.xcodeproj">
+               BlueprintName = "LLRtmp iOS"
+               ReferencedContainer = "container:LLRtmp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,8 +45,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2945CBBC1B4BE66000104112"
             BuildableName = "HaishinKit.framework"
-            BlueprintName = "HaishinKit iOS"
-            ReferencedContainer = "container:HaishinKit.xcodeproj">
+            BlueprintName = "LLRtmp iOS"
+            ReferencedContainer = "container:LLRtmp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -61,8 +61,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2945CBBC1B4BE66000104112"
             BuildableName = "HaishinKit.framework"
-            BlueprintName = "HaishinKit iOS"
-            ReferencedContainer = "container:HaishinKit.xcodeproj">
+            BlueprintName = "LLRtmp iOS"
+            ReferencedContainer = "container:LLRtmp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

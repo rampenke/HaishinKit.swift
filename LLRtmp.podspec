@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   HaishinKit. Camera and Microphone streaming library via RTMP, HLS for iOS, macOS, tvOS.
   DESC
 
-  s.homepage     = "https://github.com/shogo4405/HaishinKit.swift"
+  s.homepage     = "https://github.com/rampenke/LLRtmp.swift"
   s.license      = "New BSD"
   s.author       = { "shogo4405" => "shogo4405@gmail.com" }
-  s.authors      = { "shogo4405" => "shogo4405@gmail.com" }
-  s.source       = { :git => "https://github.com/shogo4405/HaishinKit.swift.git", :tag => "#{s.version}" }
-  s.social_media_url = "http://twitter.com/shogo4405"
+  #s.authors      = { "shogo4405" => "shogo4405@gmail.com" }
+  #s.source       = { :git => "https://github.com/shogo4405/HaishinKit.swift.git", :tag => "#{s.version}" }
+  #s.social_media_url = "http://twitter.com/shogo4405"
 
   s.ios.deployment_target = "9.0"
   s.ios.source_files = "Platforms/iOS/*.{h,swift}"
